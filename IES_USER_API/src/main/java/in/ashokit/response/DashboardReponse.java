@@ -7,11 +7,11 @@ import lombok.Setter;
 @Setter
 public class DashboardReponse {
 
-	private Long plansCount;
-	
-	private Long citizenApCnt;
-	
-	private Long citizenDnCnt;
-	
-	private Double benefitAmtTotal;
+    private Long plansCount;
+
+    private Long citizenApCnt;
+
+    private Long citizenDnCnt;
+
+    private Double benefitAmtTotal;
 }

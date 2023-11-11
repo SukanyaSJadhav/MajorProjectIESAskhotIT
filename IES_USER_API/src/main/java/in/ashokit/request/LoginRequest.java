@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class LoginRequest {
 
-	
-	private String email;
-	
-	private String pwd;
+
+    private String email;
+
+    private String pwd;
 }
