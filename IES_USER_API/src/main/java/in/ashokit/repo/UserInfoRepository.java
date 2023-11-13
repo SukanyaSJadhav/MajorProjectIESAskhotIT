@@ -1,9 +1,11 @@
 package in.ashokit.repo;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import in.ashokit.entity.UserInfoEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface UserInfoRepository extends JpaRepository <UserInfoEntity, Integer> {
+@Repository
+public interface UserInfoRepository extends JpaRepository<UserInfoEntity, Integer> {
 
+    UserInfoEntity findByEmail(String email);
 }
